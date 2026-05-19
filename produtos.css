@@ -1,0 +1,187 @@
+/* ================================= */
+/* PRODUTOS E SERVIÇOS */
+/* ================================= */
+
+.services {
+    padding: 40px 20px 80px;
+    text-align: center;
+}
+
+/* TÍTULO */
+.services h2 {
+    font-size: 32px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+.services-subtitle {
+    font-size: 17px;
+    color: #0d1b2a;
+    margin-bottom: 40px;
+}
+
+/* ÁREA DOS CARDS */
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.service-card {
+    width: 260px;
+    padding: 25px 20px;
+
+    background-color: transparent;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+/* IMAGEM */
+.service-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* TÍTULO CARD */
+.service-card h3 {
+    font-size: 22px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+/* TEXO CARD */
+.service-card p {
+    font-size: 15px;
+    color: #111;
+    line-height: 1.5;
+}
+/* ================================= */
+/* PRODUTOS */
+/* ================================= */
+
+.products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* TÍTULO */
+.products h2 {
+    font-size: 32px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+.products-subtitle {
+    font-size: 17px;
+    color: #0d1b2a;
+    margin-bottom: 40px;
+}
+
+/* CARDS DOS PRODUTOS */
+.product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.product-card {
+    width: 260px;
+    padding: 25px 20px;
+
+    background-color: transparent;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+/* IMAGEM */
+.product-card img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* TÍTULO */
+.product-card h3 {
+    font-size: 22px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+.product-card p {
+    font-size: 15px;
+    color: #111;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* BOTÃO */
+.product-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER BOTÃO */
+.product-card button:hover {
+    background-color: #0d1b2a;
+}
+/* CORPO DA PÁGINA */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #76c893;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 40px;
+}
+/* LOGO DO HEADER */
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #65a1e6;
+    font-family:'Times New Roman', Times, serif
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
